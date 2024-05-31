@@ -3,9 +3,13 @@ public class cwh_11_str {
         System.out.println("jai shree ram ");//introducting str 
         // String name;
         // name =new String("sarthak ");
-        String name ="sarthak";
-        System.out.println(name.toUpperCase());
-        // name.length();
+        // String name ="sarthak";
+        // System.out.println(name.toUpperCase());
+        // System.out.println(name.length());
+        // System.out.println(name.toLowerCase());
+       
+        String noTrimmed ="      sarthak        singhal";
+        System.out.println(noTrimmed.trim());
 
 
 
