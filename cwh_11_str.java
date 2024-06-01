@@ -12,7 +12,7 @@ public class cwh_11_str {
         System.out.println(noTrimmed.trim());  // its remove starting spacing
         System.out.println(name.substring(2,5));
         System.out.println(name.replace('a','u'));
-        System.out.println(name.charAt(3));
+        System.out.println(name.charAt(1));
 
 
 
