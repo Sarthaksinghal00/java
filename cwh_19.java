@@ -19,7 +19,7 @@ public class cwh_19 {
 
         System.out.println( " enter the maths marks  :- " );
         int math = sc.nextInt();
-        
+
         if (math < 33)   {
            
             System.out.println(" pls next time better marks ");
@@ -33,14 +33,34 @@ public class cwh_19 {
 
         System.out.println( " enter the  science  :- " );
         int science = sc.nextInt();
+        if (science < 33)   {
+           
+            System.out.println(" pls next time better marks ");
+            
+        }
+    
+        else{
+            System.out.println(" good");
+        }
+
         System.out.println( " enter the  sst  :- " );
         int sst = sc.nextInt();
 
-        float sum =  ((math + science + sst) /300f) *100f;
-        System.out.println( "your marks is "+sum +"%" );
+        if (sst < 33)   {
+           
+            System.out.println(" pls next time better marks ");
+            
+        }
+    
+        else{
+            System.out.println(" good");
+        }
 
-        if (sum > 40){
-            System.out.println(" you pass ");
+        float sum =  ((math + science + sst) /300f) *100f;
+        // System.out.println( "your marks is "+sum +"%" );
+
+        if (sum >= 33){
+            System.out.println(" you pass " + sum);
         }
          
         else{
