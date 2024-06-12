@@ -28,7 +28,7 @@ public class cwh_21 {
         // }
 
         for (int  i=7; i!=1; i--){
-            System.out.println(i);
+            System.out.println(i+"*");
         }
 
           
