@@ -12,8 +12,17 @@ public class cwh_ps_25 {
         //     System.out.println("\n");
 
         // }
-        /// question 2 
+        /// question 
+
+        int sum =0;
+        int i =0;
+        int n=3;
+        while (i<n){
+            sum=sum+(2*n+1);
+            System.out.println(sum);
+            i++;
         
+        }
 
 
 
